@@ -1,7 +1,6 @@
 # MineMeld configuration
 MineMeld configuration for the integration with MS Graph API
 
-I would like to share the configuration I currently have for MS Graph API:
 
 * 57 miners - All out of the box from the default install and free (no API keys or account registrations required).
 * 14 processors - All out of the box too.
