@@ -1,0 +1,378 @@
+nodes:
+  alienvault_reputation:
+    inputs: []
+    output: true
+    prototype: alienvault.reputation
+  badips_blocklist_any_3_2weeks:
+    inputs: []
+    output: true
+    prototype: badips.blocklist_any_3_2weeks
+  bambenekconsulting_c2_dommasterlist_high:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.c2_dommasterlist_high
+  bambenekconsulting_c2_dommasterlist:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.c2_dommasterlist
+  bambenekconsulting_c2_ipmasterlist_high:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.c2_ipmasterlist_high
+  bambenekconsulting_c2_ipmasterlist:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.c2_ipmasterlist
+  bambenekconsulting_dga_feed_high:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.dga_feed_high
+  bambenekconsulting_dga_feed:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.dga_feed
+  binarydefense_banlist:
+    inputs: []
+    output: true
+    prototype: binarydefense.banlist
+  blocklist_de_all:
+    inputs: []
+    output: true
+    prototype: blocklist_de.all
+  blocklist_de_apache:
+    inputs: []
+    output: true
+    prototype: blocklist_de.apache
+  blocklist_de_bots:
+    inputs: []
+    output: true
+    prototype: blocklist_de.bots
+  blocklist_de_bruteforcelogin:
+    inputs: []
+    output: true
+    prototype: blocklist_de.bruteforcelogin
+  blocklist_de_ftp:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ftp
+  blocklist_de_imap:
+    inputs: []
+    output: true
+    prototype: blocklist_de.imap
+  blocklist_de_ircbot:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ircbot
+  blocklist_de_mail:
+    inputs: []
+    output: true
+    prototype: blocklist_de.mail
+  blocklist_de_sip:
+    inputs: []
+    output: true
+    prototype: blocklist_de.sip
+  blocklist_de_ssh:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ssh
+  blocklist_de_strongips:
+    inputs: []
+    output: true
+    prototype: blocklist_de.strongips
+  blocklist_net_ua_ipset:
+    inputs: []
+    output: true
+    prototype: blocklist_net_ua.ipset
+  bruteforceblocker_blist:
+    inputs: []
+    output: true
+    prototype: bruteforceblocker.blist
+  cloudflare_ipv4:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv4
+  cloudflare_ipv6:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv6
+  dshield_block:
+    inputs: []
+    output: true
+    prototype: dshield.block
+  ETOpen_blockIPs:
+    inputs: []
+    output: true
+    prototype: ETOpen.blockIPs
+  ETOpen_compromisedIPs:
+    inputs: []
+    output: true
+    prototype: ETOpen.compromisedIPs
+  fastly_ipv4:
+    inputs: []
+    output: true
+    prototype: fastly.ipv4
+  feodotracker_badips:
+    inputs: []
+    output: true
+    prototype: feodotracker.badips
+  feodotracker_hashes:
+    inputs: []
+    output: true
+    prototype: feodotracker.hashes
+  feodotracker_ipblocklist:
+    inputs: []
+    output: true
+    prototype: feodotracker.ipblocklist
+  greensnow_IP:
+    inputs: []
+    output: true
+    prototype: greensnow.IP
+  hailataxii_guest_dataForLast_7daysOnly:
+    inputs: []
+    output: true
+    prototype: hailataxii.guest_dataForLast_7daysOnly
+  hailataxii_guest_phishtank_com:
+    inputs: []
+    output: true
+    prototype: hailataxii.guest_phishtank_com
+  itcertpa_DOMAINS:
+    inputs: []
+    output: true
+    prototype: itcertpa.DOMAINS
+  itcertpa_IP:
+    inputs: []
+    output: true
+    prototype: itcertpa.IP
+  itcertpa_URLS:
+    inputs: []
+    output: true
+    prototype: itcertpa.URLS
+  malc0de_DOMAINS:
+    inputs: []
+    output: true
+    prototype: malc0de.DOMAINS
+  malc0de_IP:
+    inputs: []
+    output: true
+    prototype: malc0de.IP
+  malwaredomainlist_ip:
+    inputs: []
+    output: true
+    prototype: malwaredomainlist.ip
+  openphish_feed:
+    inputs: []
+    output: true
+    prototype: openphish.feed
+  spamhaus_ASNDROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.ASNDROP
+  spamhaus_DROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.DROP
+  spamhaus_EDROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.EDROP
+  sslabusech_aggressiveIPblacklist:
+    inputs: []
+    output: true
+    prototype: sslabusech.aggressiveIPblacklist
+  sslabusech_ipblacklist:
+    inputs: []
+    output: true
+    prototype: sslabusech.ipblacklist
+  stdlib_listDomainGeneric:
+    inputs: []
+    output: true
+    prototype: stdlib.listDomainGeneric
+  stdlib_listIPv4Generic:
+    inputs: []
+    output: true
+    prototype: stdlib.listIPv4Generic
+  stdlib_listIPv6Generic:
+    inputs: []
+    output: true
+    prototype: stdlib.listIPv6Generic
+  stdlib_listURLGeneric:
+    inputs: []
+    output: true
+    prototype: stdlib.listURLGeneric
+  stdlib_localDB:
+    inputs: []
+    output: true
+    prototype: stdlib.localDB
+  stdlib_syslogMiner:
+    inputs: []
+    output: true
+    prototype: stdlib.syslogMiner
+  surbl_ThreeLevelTLDS:
+    inputs: []
+    output: true
+    prototype: surbl.ThreeLevelTLDS
+  surbl_Two_Level_TLDS:
+    inputs: []
+    output: true
+    prototype: surbl.Two_Level_TLDS
+  tor_exit_addresses:
+    inputs: []
+    output: true
+    prototype: tor.exit_addresses
+  urlhaus_URL:
+    inputs: []
+    output: true
+    prototype: urlhaus.URL
+  vxvault_URLBL:
+    inputs: []
+    output: true
+    prototype: vxvault.URLBL
+  stdlib_aggregatorDomain:
+    inputs:
+      - bambenekconsulting_c2_dommasterlist_high
+      - bambenekconsulting_c2_dommasterlist
+      - bambenekconsulting_dga_feed_high
+      - bambenekconsulting_dga_feed
+      - hailataxii_guest_dataForLast_7daysOnly
+      - hailataxii_guest_phishtank_com
+      - itcertpa_DOMAINS
+      - malc0de_DOMAINS
+      - stdlib_listDomainGeneric
+      - stdlib_localDB
+      - surbl_ThreeLevelTLDS
+      - surbl_Two_Level_TLDS
+    output: true
+    prototype: stdlib.aggregatorDomain
+  stdlib_aggregatorEmailAddress:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorEmailAddress
+  stdlib_aggregatorFileName:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorFileName
+  stdlib_aggregatorIPv4Generic:
+    inputs:
+      - alienvault_reputation
+      - badips_blocklist_any_3_2weeks
+      - bambenekconsulting_c2_ipmasterlist_high
+      - bambenekconsulting_c2_ipmasterlist
+      - binarydefense_banlist
+      - blocklist_de_all
+      - blocklist_de_apache
+      - blocklist_de_bots
+      - blocklist_de_bruteforcelogin
+      - blocklist_de_ftp
+      - blocklist_de_imap
+      - blocklist_de_ircbot
+      - blocklist_de_mail
+      - blocklist_de_sip
+      - blocklist_de_ssh
+      - blocklist_de_strongips
+      - blocklist_net_ua_ipset
+      - bruteforceblocker_blist
+      - cloudflare_ipv4
+      - dshield_block
+      - ETOpen_compromisedIPs
+      - ETOpen_blockIPs
+      - fastly_ipv4
+      - feodotracker_badips
+      - feodotracker_ipblocklist
+      - greensnow_IP
+      - hailataxii_guest_dataForLast_7daysOnly
+      - hailataxii_guest_phishtank_com
+      - itcertpa_IP
+      - malc0de_IP
+      - malwaredomainlist_ip
+      - spamhaus_DROP
+      - spamhaus_EDROP
+      - sslabusech_ipblacklist
+      - sslabusech_aggressiveIPblacklist
+      - stdlib_listIPv4Generic
+      - stdlib_localDB
+      - stdlib_syslogMiner
+      - tor_exit_addresses
+    output: true
+    prototype: stdlib.aggregatorIPv4Generic
+  stdlib_aggregatorIPv6Simple:
+    inputs:
+      - blocklist_net_ua_ipset
+      - cloudflare_ipv6
+      - hailataxii_guest_dataForLast_7daysOnly
+      - hailataxii_guest_phishtank_com
+      - stdlib_listIPv6Generic
+      - stdlib_localDB
+      - stdlib_syslogMiner
+    output: true
+    prototype: stdlib.aggregatorIPv6Simple
+  stdlib_aggregatorMD5:
+    inputs:
+      - feodotracker_hashes
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorMD5
+  stdlib_aggregatorMutex:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorMutex
+  stdlib_aggregatorProcessCommandLine:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorProcessCommandLine
+  tdlib_aggregatorSHA1:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorSHA1
+  stdlib_aggregatorSHA256:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorSHA256
+  stdlib_aggregatorSSDEEP:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorSSDEEP
+  stdlib_aggregatorURL:
+    inputs:
+      - hailataxii_guest_dataForLast_7daysOnly
+      - itcertpa_URLS
+      - hailataxii_guest_phishtank_com
+      - openphish_feed
+      - stdlib_listURLGeneric
+      - stdlib_localDB
+      - stdlib_syslogMiner
+      - urlhaus_URL
+      - vxvault_URLBL
+    output: true
+    prototype: stdlib.aggregatorURL
+  stdlib_aggregatorUserAgentFragment:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorUserAgentFragment
+  stdlib_aggregatorWindowsRegistryValue:
+    inputs:
+      - stdlib_localDB
+    output: true
+    prototype: stdlib.aggregatorWindowsRegistryValue
+  microsoft_graph_secapi_output_Domain:
+    inputs:
+      - stdlib_aggregatorDomain
+    output: true
+    prototype: microsoft_graph_secapi.output
+  microsoft_graph_secapi_output_IPv4Generic:
+    inputs:
+      - stdlib_aggregatorIPv4Generic
+    output: true
+    prototype: microsoft_graph_secapi.output
+  microsoft_graph_secapi_output_URL:
+    inputs:
+      - stdlib_aggregatorURL
+    output: true
+    prototype: microsoft_graph_secapi.output
